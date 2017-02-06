@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>Page Not Found</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 1em;
+            font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        @media screen and (min-width: 40em) {
+            body {
+                width: 40em;
+            }
+        }
+
+        h1, h2, h3 {
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 300;
+        }
+
+        h1 {
+            margin: 1em 0;
+            padding: 0 0 0.25em 0;
+            border-bottom: 1px dotted #ccc;
+            text-align: center;
+            font-size: 3em;
+            line-height: 1.1em;
+        }
+
+        .card-wide.mdl-card {
+            width: 512px;
+        }
+        .card-wide > .mdl-card__title {
+            color: #fff;
+            height:342px;
+            background: url('oh jeez.jpg') center / cover;
+        }
+        .card-wide > .mdl-card__menu {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="mdl-layout mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+        <!-- Wide card with share menu button -->
+        <div class="card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Not Found</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                The page you requested cannot be found!
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="index.html">
+                    Go Home
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
